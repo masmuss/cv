@@ -15,7 +15,7 @@ export const RESUME_DATA = {
 	locationLink: 'https://www.google.com/maps/place/surabaya',
 	about: 'Full Stack Web Deveoper focused on building products with extra attention to details',
 	summary:
-		'Experienced Full Stack Web Developer with 2 years expertise in TypeScript, React/Next.js, Node.js, Express.js, and Laravel. Led successful projects, fostering optimal team collaboration.',
+		'Experienced Full Stack Web Developer with 2 years expertise in TypeScript, React.js, Next.js, Node.js, Express.js, and Laravel. Led successful projects, fostering optimal team collaboration.',
 	avatarUrl: 'https://avatars.githubusercontent.com/u/63689140?v=4',
 	personalWebsiteUrl: 'https://khoirul.me',
 	contact: {
@@ -49,9 +49,19 @@ export const RESUME_DATA = {
 	],
 	work: [
 		{
+			company: 'Panasonic Manufacturing Indonesia',
+			link: 'https://www.panasonic.com/id/corporate/profile/group-companies.html',
+			badges: ['Internship', 'Fulltime'],
+			title: 'Production Engineering at Air Conditioner Business Unit',
+			start: '2024',
+			end: 'present',
+			description:
+				'Working to improve production processes, through software development to assist production processes. Learn how to develop software within the scope of production in factories and implement IoT for smart industries.',
+		},
+		{
 			company: 'EEPIS News and Network Team',
 			link: 'https://ent.pens.ac.id',
-			badges: ['Fulltime'],
+			badges: ['Self-assignment', 'Fulltime'],
 			title: 'Senior Full Stack Web Developer',
 			logo: ParabolLogo,
 			start: '2021',
@@ -105,14 +115,14 @@ export const RESUME_DATA = {
 			},
 		},
 		{
-			title: 'A Journey',
+			title: 'Random Tales',
 			techStack: ['Side Project', 'Next.js', 'MDX'],
 			description:
 				'My personal blog. Written in Indonesian. Built with Next.js and MDX.',
 			logo: JarockiMeLogo,
 			link: {
-				label: 'journey.khoirul.me',
-				href: 'https://journey.khoirul.me/',
+				label: 'randomtales.site',
+				href: 'https://www.randomtales.site/',
 			},
 		},
 		{
